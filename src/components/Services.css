@@ -1,0 +1,128 @@
+#sale{
+    background-color: aqua;
+  
+
+}
+.three{
+   
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+    
+
+}
+#buy{
+    background-color: yellow;
+    
+}
+#rental{
+    background-color: cornflowerblue;
+}
+#sale,#buy,#rental{
+    height: 80px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(37, 0, 0, 0.993);
+    
+}
+.holehome{
+    font-size: 40px;
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-blend-mode:difference;
+    background-color: rgba(255, 255, 255, 0.253);
+    height:100%;
+    
+}
+.bottom{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    height: 110px;
+}
+.image{
+    background-image: url('https://wallpaperaccess.com/full/2315968.jpg');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.253);
+
+}
+#rental:hover{
+    scale: 2.5;
+    color: rgba(6, 0, 8, 0.658);
+    stroke: brown;
+    height: 100px;
+    width: 180px;
+}
+#buy:hover{
+    scale: 2.5;
+    color: rgba(6, 0, 8, 0.658);
+    stroke: brown;
+    height: 100px;
+    width: 180px;
+}
+#sale:hover{
+    scale: 2.5;
+    color: rgba(6, 0, 8, 0.658);
+    stroke: brown;
+    height: 100px;
+    width: 180px;
+}
+
+
+.contact{
+    margin-top: 0px;
+    background-color: black;
+   display: grid;
+   grid-template-columns: repeat(3,(auto));
+
+    
+}
+.quick-link{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+.quicklink-item{
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.quicklink-item:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+
+
+.contact-items:hover{
+    color:red;
+}
+
+.socialmedia{
+    margin: 20px;
+    display: flex;
+   flex-direction: column;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons-item{
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.icons-item:hover{
+    opacity: 0.5;
+    transform: scaleX(0.5);
+    /* transform: rotate(180deg); */
+  
+ }

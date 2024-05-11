@@ -1,0 +1,35 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "name": "yogesh",
+      "location": "cbe",
+      "price": "100000",
+      "type": "Rental house"
+    },
+    {
+      "id": 1,
+      "name": "dtfyjkyfu",
+      "location": "rdtjgh",
+      "price": "1233",
+      "img": "gfgnh",
+      "type": "Villas house"
+    },
+    {
+      "id": 1,
+      "name": "vghgvmn",
+      "location": "gbvm ",
+      "price": "13223345",
+      "img": "vghnmm",
+      "type": "Duplex house"
+    },
+    {
+      "id": 1,
+      "name": "dgvbvbn",
+      "location": "fxfhbcgbn",
+      "price": "545365",
+      "img": "wedsgf",
+      "type": "Duplex house"
+    }
+  ]
+}
