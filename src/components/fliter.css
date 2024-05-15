@@ -1,0 +1,66 @@
+.fliter-field{
+    margin: 0;
+    height: 50px;
+    width: 1000px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    left: 10%;
+    right: 20%;
+    background-color: rgba(187, 220, 221, 0.5);
+}
+.price-dropdown{
+    
+    width: 300px;
+    border: 3px solid gray;
+    border-radius: 10px;
+   position:absolute;
+   z-index: 1;
+   left: 20%;
+   top: 60px;
+   background-color: rgba(187, 220, 221, 0.5)
+
+  
+}
+button{
+    width: 100px;
+}
+.select{
+     width: 200px;
+}
+
+.price-select{
+    width: 100px;
+    margin: 20px;
+    
+}
+.parent-search{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.result-search{
+    background-color: rgba(9, 235, 159, 1.5);
+    margin: 20px 20px;
+    border: 4px solid gold;
+    border-radius: 10px;
+    
+   
+}
+.result-img{
+    margin-top: 20px;
+    margin: 20px 20px;
+   height: 200px;
+   width: 300px;
+    object-fit: contain;
+}
+
+.result-text{
+    color: beige;
+    font-size: 20px;
+}
