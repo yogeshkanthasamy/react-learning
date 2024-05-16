@@ -1,8 +1,8 @@
 
 .fliter-field{
-    top: 60px;
+    top: 11%;
     margin: 0;
-    height: 50px;
+    height: 70px;
     width: 90%;
     padding: 10px;
     border: 2px solid gray;
@@ -32,6 +32,7 @@ button{
 }
 .select{
      width: 200px;
+     height:40px
 }
 
 .price-select{
@@ -44,7 +45,7 @@ button{
     /* font-size: 15px; */
 }
 .parent-search{
-    margin-top: 70px;
+    margin-top: 10%;
     width: 80%;
     height: 90%;
     display: grid;
@@ -52,6 +53,7 @@ button{
 }
 
 .result-search{
+    text-align: center;
     background-color: rgba(230, 227, 219, 1);
     margin-left: 50px;
     margin-right: 50px;
