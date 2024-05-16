@@ -77,7 +77,7 @@ export default function Fliter() {
                             <option value={" "} onChange={(e) => setpricebelow(e.target.value)}>To</option>
                             <option value={100000}>5 lacks</option>
                             <option value={1000000}>10 lacks</option>
-                            <option value={20000000}>20 lacks</option>
+                            <option value={2000000}>20 lacks</option>
                             <option value={3000000}>30 lacks</option>
                             <option value={4000000}>40 lacks</option>
                             <option value={5000000}>50 lacks</option>
