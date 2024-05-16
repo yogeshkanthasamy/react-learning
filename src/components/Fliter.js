@@ -18,27 +18,28 @@ export default function Fliter() {
     console.log(list);
     const handlesubmit = () => {
         console.log(list);
+        
         if (type && (priceabove || pricebelow) && bhk && location) {
             setfliterlist(
                 list.filter(
                     (item) =>
                         item.type == type &&
-                        (item.price >= priceabove || item.price <= pricebelow) && item.bhk == bhk && item.location == location))
+                        (item.price >= priceabove || item.price <= pricebelow) && item.bhk == bhk && item.location == location && item.status=='Verified'))
             console.log(filterlist)
         } else if (type) {
-            setfliterlist(list.filter((item1) => item1.type == type))
+            setfliterlist(list.filter((item1) => item1.type == type && item1.status=='Verified'))
             console.log(filterlist)
         } else if (bhk) {
-            setfliterlist(list.filter((item2) => item2.bhk == bhk))
+            setfliterlist(list.filter((item2) => item2.bhk == bhk && item2.status=='Verified'))
             console.log(filterlist)
         } else if (location) {
-            setfliterlist(list.filter((item3) => item3.location == location))
+            setfliterlist(list.filter((item3) => item3.location == location && item3.status=='Verified'))
             console.log(filterlist)
         } else if (priceabove) {
-            setfliterlist(list.filter((item3) => item3.price >= priceabove))
+            setfliterlist(list.filter((item3) => item3.price >= priceabove && item3.status=='Verified'))
             console.log(filterlist)
         } else if (pricebelow) {
-            setfliterlist(list.filter((item3) => item3.price <= pricebelow))
+            setfliterlist(list.filter((item3) => item3.price <= pricebelow && item3.status=='Verified'))
             console.log(filterlist)
         }
     }
